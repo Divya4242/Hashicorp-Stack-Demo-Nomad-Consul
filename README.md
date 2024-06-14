@@ -1,6 +1,6 @@
-# Nomad-Consul-Nginx
+# Hashicorp-Stack-Demo-Nomad-Consul
 
-This repository provides instructions for setting up a basic environment using HashiCorp's Nomad and Consul. This setup will help you deploy and manage services with Nomad and service discovery with Consul.
+This demonstration showcases a simplified implementation of [Nomad](https://www.nomadproject.io/) and [Consul](https://www.consul.io/) for service deployment and discovery. It utilizes a single machine for both Nomad server and client, as well as Consul server and client. Two Docker images are leveraged: a web-frontend built with React and a Node.js backend, both retrieved from Docker Hub. Separate Nomad jobs are defined for the frontend, backend, and an Nginx service for load balancing. Consul acts as the service registry, allowing the Nginx job to discover the frontend and backend services within the Nomad cluster. This setup provides a basic example of how Nomad and Consul can be used to manage and orchestrate containerized applications.
 
 ## Table of Contents
 
@@ -76,11 +76,11 @@ This repository provides instructions for setting up a basic environment using H
 Cheers! 🎉 You can now access your deployed website.
 
   **To access the website**:
-  1. On a cloud instance (AWS/Azure/GCP): open your browser and enter http://<public-ip>:8080
+  1. On a cloud instance (AWS/Azure/GCP): open your browser and enter http://public-ip:8080
   2. On a local machine: open your browser and enter http://localhost:8088
 
 
-## Managing Services and Important Commands:
+## Managing Services and Important Commands
 1. **Accessing the Nomad Web UI**: http://localhost:4646
 2. **Registering a Job**: nomad job run example.nomad.hcl
 3. **Displays the status of all registered jobs**: nomad job status
@@ -101,5 +101,3 @@ Cheers! 🎉 You can now access your deployed website.
 18. **Check Consul Version**: consul version
 
 
-Open your browser and navigate to your domain or the appropriate service URL. Your application should be live and accessible.
-   This README should provide a clear and concise guide for setting up and managing Nomad and Consul within your project.
