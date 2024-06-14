@@ -2,7 +2,7 @@
 
 This demonstration showcases a simplified implementation of [Nomad](https://www.nomadproject.io/) and [Consul](https://www.consul.io/) for service deployment and discovery. It utilizes a single machine for both Nomad server and client, as well as Consul server and client. Two Docker images are leveraged: a web-frontend built with React and a Node.js backend, both retrieved from Docker Hub. Separate Nomad jobs are defined for the frontend, backend, and an Nginx service for load balancing. Consul acts as the service registry, allowing the Nginx job to discover the frontend and backend services within the Nomad cluster. This setup provides a basic example of how Nomad and Consul can be used to manage and orchestrate containerized applications.
 
-## Familiarity with (not mandatory):
+## Familiarity with (not mandatory)
 
 - Understanding Containerization (Docker)
 - Service Orchestration Fundamentals (Kubernetes)
