@@ -4,9 +4,11 @@ This demonstration showcases a simplified implementation of [Nomad](https://www.
 
 ## Familiarity with (not mandatory):
 
-Understanding Containerization (Docker)
-Service Orchestration Fundamentals (Kubernetes)
-Basic Networking Knowledge
+• Understanding Containerization (Docker)
+
+• Service Orchestration Fundamentals (Kubernetes)
+
+• Basic Networking Knowledge
 
 ## Table of Contents
 
