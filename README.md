@@ -1,6 +1,12 @@
-# Hashicorp-Stack-Demo-Nomad-Consul
+# Hashicorp-Stack-Demo(Nomad-Consul)
 
 This demonstration showcases a simplified implementation of [Nomad](https://www.nomadproject.io/) and [Consul](https://www.consul.io/) for service deployment and discovery. It utilizes a single machine for both Nomad server and client, as well as Consul server and client. Two Docker images are leveraged: a web-frontend built with React and a Node.js backend, both retrieved from Docker Hub. Separate Nomad jobs are defined for the frontend, backend, and an Nginx service for load balancing. Consul acts as the service registry, allowing the Nginx job to discover the frontend and backend services within the Nomad cluster. This setup provides a basic example of how Nomad and Consul can be used to manage and orchestrate containerized applications.
+
+## Familiarity with (not mandatory):
+
+Understanding Containerization (Docker)
+Service Orchestration Fundamentals (Kubernetes)
+Basic Networking Knowledge
 
 ## Table of Contents
 
@@ -12,6 +18,7 @@ This demonstration showcases a simplified implementation of [Nomad](https://www.
   - [Consul Agent](#consul-agent)
   - [Running a Nomad Job](#running-a-nomad-job)
 - [Managing Services and Important Commands](#managing-services-and-important-commands)
+- [Learning Resources](learning-resources)
 
 ## Installation
 
@@ -100,4 +107,11 @@ Cheers! 🎉 You can now access your deployed website.
 17. **List Nodes for a Specific Service**: consul catalog nodes -service=<service_name>
 18. **Check Consul Version**: consul version
 
+## Learning Resources
 
+HashiCorp provides excellent documentation for both 
+ 
+ • Nomad https://developer.hashicorp.com/nomad and 
+ • Consul https://developer.hashicorp.com/consul/docs. 
+ 
+ These resources are a great starting point to learn about their features and configuration options.
