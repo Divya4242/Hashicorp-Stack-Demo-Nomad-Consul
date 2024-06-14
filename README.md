@@ -112,6 +112,7 @@ Cheers! 🎉 You can now access your deployed website.
 HashiCorp provides excellent documentation for both 
  
  • Nomad https://developer.hashicorp.com/nomad and 
+ 
  • Consul https://developer.hashicorp.com/consul/docs. 
  
  These resources are a great starting point to learn about their features and configuration options.
