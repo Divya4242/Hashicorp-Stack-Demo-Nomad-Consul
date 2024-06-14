@@ -37,7 +37,7 @@ This repository provides instructions for setting up a basic environment using H
    consul version
    ```
 
-### Usage
+## Usage
 
 #### Nomad Server and Client
 1. **Run Nomad Client Agent**:
@@ -78,6 +78,7 @@ Cheers! 🎉 You can now access your deployed website.
   **To access the website**:
   1. On a cloud instance (AWS/Azure/GCP): open your browser and enter http://<public-ip>:8080
   2. On a local machine: open your browser and enter http://localhost:8088
+
 
 ## Managing Services and Important Commands:
 1. **Accessing the Nomad Web UI**: http://localhost:4646
