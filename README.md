@@ -88,24 +88,24 @@ Cheers! 🎉 You can now access your deployed website.
 
 
 ## Managing Services and Important Commands
-1. **Accessing the Nomad Web UI**: http://localhost:4646
-2. **Registering a Job**: nomad job run example.nomad.hcl
-3. **Displays the status of all registered jobs**: nomad job status
-4. **Inspecting a Specific Job**: nomad job status
-5. **Stop a Nomad Job**: nomad job stop -purge <job-name>
-6. **Listing Allocations**: nomad alloc status
-7. **Inspecting a Specific Allocation**: nomad alloc status <alloc-id>
-8. **Viewing Logs for a Job**: nomad job logs <job-name>
-9. **Viewing Logs for an Allocation**: nomad alloc logs <alloc-id>
-10.  **List Nomad Processes**: ps aux | grep nomad
-11. **Kill Nomad Processe**: sudo killall nomad
-12. **Accessing the Consul Web UI**: http://localhost:8500
-13. **Leave/Stop the Consul Cluster**: consul leave
-14. **Display Consul Status and Metrics**: consul info
-15. **View Members in the Cluster**: consul members
-16. **List Services Registered with Consul:**: consul catalog services
-17. **List Nodes for a Specific Service**: consul catalog nodes -service=<service_name>
-18. **Check Consul Version**: consul version
+1. **Accessing the Nomad Web UI**: `http://localhost:4646`
+2. **Registering a Job**: `nomad job run example.nomad.hcl`
+3. **Displays the status of all registered jobs**: `nomad job status`
+4. **Inspecting a Specific Job**: `nomad job status`
+5. **Stop a Nomad Job**: `nomad job stop -purge <job-name>`
+6. **Listing Allocations**: `nomad alloc status`
+7. **Inspecting a Specific Allocation**: `nomad alloc status <alloc-id>`
+8. **Viewing Logs for a Job**: `nomad job logs <job-name>`
+9. **Viewing Logs for an Allocation**: `nomad alloc logs <alloc-id>`
+10.  **List Nomad Processes**: `ps aux | grep nomad`
+11. **Kill Nomad Processe**: `sudo killall nomad`
+12. **Accessing the Consul Web UI**: `http://localhost:8500`
+13. **Leave/Stop the Consul Cluster**: `consul leave`
+14. **Display Consul Status and Metrics**: `consul info`
+15. **View Members in the Cluster**: `consul members`
+16. **List Services Registered with Consul:**: `consul catalog services`
+17. **List Nodes for a Specific Service**: `consul catalog nodes -service=<service_name>`
+18. **Check Consul Version**: `consul version`
 
 ## Learning Resources
 
